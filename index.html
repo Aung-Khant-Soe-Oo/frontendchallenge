@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<!--    Header Section-->
+<header>
+<!--    Nav Bar Section-->
+    <nav class="navbar navbar-expand-lg bg-white position-fixed w-100">
+      <div class="container-fluid px-5 py-2">
+          <a class="navbar-brand" href="">
+              <img src="images/logo.svg" alt="span logo" height="20" />
+          </a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto ms-3">
+                <li class="nav-item dropdown me-3">
+                    <a class="nav-link dropdown-toggle" href="" role="button" id="featureMenu" data-bs-toggle="dropdown" aria-expanded="false">Features</a>
+                    <ul class="dropdown-menu shadow border-0 rounded-3">
+                        <li><a href="" class="dropdown-item">Todo List</a></li>
+                        <li><a href="" class="dropdown-item">Calender</a></li>
+                        <li><a href="" class="dropdown-item">Reminders</a></li>
+                        <li><a href="" class="dropdown-item">Planning</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown me-3">
+                    <a class="nav-link dropdown-toggle" href="" role="button" id="companyMenu" data-bs-toggle="dropdown" aria-expanded="false">Company</a>
+                    <ul class="dropdown-menu shadow border-0 rounded-3">
+                        <li class="dropdown-item">History</li>
+                        <li class="dropdown-item">Our Team</li>
+                        <li class="dropdown-item">Blog</li>
+                    </ul>
+                </li>
+                <li class="nav-item me-3">
+                    <a class="nav-link" href="">Careers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">About</a>
+                </li>
+            </ul>
+            <form class="d-flex flex-column flex-lg-row" action="">
+                <a class="btn btn-outline-dark border-0 me-3" href="#">Login</a>
+                <button class="btn btn-outline-dark px-4 rounded-4">Register</button>
+            </form>
+        </div>
+      </div>
+    </nav>
+    <section class="hero ">
+
+            <div class="container ">
+                <div class="row min-vh-100 justify-content-center align-items-center">
+                    <div class="text-center">
+
+                        <div class="d-block d-lg-none">
+                            <img src="images/image-hero-mobile.png" class="hero-image" alt="">
+                        </div>
+
+                    </div>
+                    <div class="col-lg-5 ">
+                        <div class="text-center text-lg-start">
+                            <h1 class="display-3 fw-bold">Make <br> Remote Work</h1>
+                            <p class="text-muted py-4 fs-6"> Get your team in sync, no matter your location. Streamline processes,
+                                create team rituals, and watch productivity soar.</p>
+                            <a class="btn btn-outline-dark mb-lg-5 mb-4" href="">Learn more</a>
+
+
+                        <div class="row">
+                            <div class="col">
+                                <img src="images/client-databiz.svg" height="15" alt="">
+                            </div>
+                            <div class="col">
+                                <img src="images/client-audiophile.svg" height="15" alt="">
+                            </div>
+                              <div class="col">
+                                  <img src="images/client-meet.svg" height="15" alt="">
+                              </div>
+                                <div class="col">
+                                    <img src="images/client-maker.svg" height="15" alt="">
+                                </div>
+
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-lg-1">
+
+                    </div>
+                    <div class="col-lg-5 text-center">
+
+                            <div class="d-none d-lg-block">
+                                <img src="images/image-hero-desktop.png" class="hero-image" alt="">
+                            </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+    </section>
+</header>
+
+
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
